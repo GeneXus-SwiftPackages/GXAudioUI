@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXAudioUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXAudioBL.git", exact: "1.2.0-beta.14"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.14")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXAudioBL.git", exact: "1.2.0-beta.16"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.16")
 	],
 	targets: [
 		.target(name: "GXAudioUIWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXAudioUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioUI-1.2.0-beta.14.xcframework.zip",
-			checksum: "066215bb8dd6c96324e43f82a82191222d288822e1208fb6c940162dd13a3f66"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioUI-1.2.0-beta.16.xcframework.zip",
+			checksum: "7d800ec8a6cc3338b23a3f15413481f8507bda86ac5d7904be936fc478cc99ab"
 		)
 	]
 )
